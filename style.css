@@ -1,0 +1,113 @@
+@font-face {
+    font-family: Neue;
+    src: url(fonts/HelveticaNeue-BlackExt.ttf);
+}
+
+@font-face {
+    font-family: 'Bahn';
+    src: url(fonts/bahnschrift.ttf);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 97vh;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 95vh;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: rgb(12, 12, 12);
+    border: 2px solid rgb(24, 24, 24);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 40px; /* rounded corners */
+    font-family: 'Neue';
+    font-size: 30px;
+    display: inline-block;
+    margin: 20px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 164);
+    border: 2px solid rgb(0, 0, 197)
+}
+
+.link {
+    text-decoration: none;
+    background-color: rgb(12, 12, 12);
+    border: 2px solid rgb(18, 18, 18);
+    border-radius: 18px;
+    padding: 8px 16px;
+    margin: 3px;
+    font-family: Neue;
+    transition-duration: 0.2s;
+
+}
+
+.link1 {
+    color: rgb(238, 136, 77);
+
+}
+
+.link1:hover {
+    background-color: rgb(207, 77, 0);
+    color: white;
+}
+
+.link2 {
+    color: rgb(95, 222, 95);
+}
+
+.link2:hover {
+    background-color: rgb(0, 164, 0);
+    color: white;
+}
+
+.link3 {
+    color: rgb(236, 96, 96);
+}
+
+.link3:hover {
+    background-color: rgb(194, 18, 18);
+    color: white;
+}
+
+.back {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Neue;
+    color: white;
+    padding: 10px 10px;
+}
+
+.header {
+    color: white;
+    font-family: Neue;
+
+}
+
+.copyright {
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Bahn', sans-serif;
+}
