@@ -2742,7 +2742,16 @@ html {
   
   .button-2 {
     text-align: center;
-    background-color: #c24100;
+    background-color: rgb(3, 0, 180);
+    flex-flow: column;
+    margin-top: 10px;
+    font-family: Cour, sans-serif;
+    display: flex;
+  }
+
+  .button-3 {
+    text-align: center;
+    background-color: #a00101;
     flex-flow: column;
     margin-top: 10px;
     font-family: Cour, sans-serif;
